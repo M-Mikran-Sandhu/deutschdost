@@ -1,3 +1,10 @@
+@import 'tailwindcss';
+
+@theme{
+  --font-urdu: 'Noto Nastaliq Urdu', Serif;
+
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
