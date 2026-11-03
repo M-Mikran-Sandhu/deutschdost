@@ -1,12 +1,12 @@
 function WordCard({word}){
     return(
-        <div className="rounded-2x1 border border-grey-200 bg-white p-5 shadow-sm">
-            <p className="test-sm text-grey-500">{word.level}</p>
-            <h2 className="text-2x1 font-bold">
-                {word.artical} {word.german}
+        <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+            <p className="text-sm text-gray-500">{word.level}</p>
+            <h2 className="text-2xl font-bold">
+                {word.article} {word.german}
             </h2>
-            <p className="mt-2 text-grey-700">{word.english}</p>
-            <p calssName="mt-2 text-grey-600">{word.urdu}</p>
+            <p className="mt-2 text-gray-700">{word.english}</p>
+            <p dir="rtl" lang="ur" className="mt-2 text-gray-600">{word.urdu}</p>
 
         </div>
     )
