@@ -9,9 +9,9 @@
         "topic":"greetings",
         "english":"Hello",
         "urdu":"سلام",
-        "romaUrdu":"salaam",
+        "romanUrdu":"salaam",
         "example":"Hallo, ich bin Mikran",
-        "exampleEnglish":"Hello, I am Mikran"
+        "exampleEnglish":"Hello, I am Mikran."
     },
     {
         "id":"freund",
@@ -23,9 +23,9 @@
         "topic":"people",
         "english":"friend",
         "urdu":"دوست",
-        "romaUrdu":"dost",
+        "romanUrdu":"dost",
         "example": "Er ist mein Freund",
-        "exampleEnglish":"He is my friend"
+        "exampleEnglish":"He is my friend."
     },
     {
         "id":"freundin",
@@ -37,9 +37,9 @@
         "topic":"people",
         "english":"friend (female)",
         "urdu":"دوست (خاتون)",
-        "romaUrdu":"dost (khatun)",
+        "romanUrdu":"dost (khatun)",
         "example": "Sie ist meine Freundin",
-        "exampleEnglish":"She is my friend"
+        "exampleEnglish":"She is my friend."
     },
     {
         "id":"danke",
@@ -51,8 +51,8 @@
         "topic":"greetings",
         "english":"Thank you",
         "urdu":"شکریہ",
-        "romaUrdu":"shukriya",
-        "example": "Danke für deine Hilfe",
+        "romanUrdu":"shukriya",
+        "example": "Danke für deine Hilfe.",
         "exampleEnglish":"Thank you for your help"
     
     },
@@ -66,8 +66,8 @@
         "topic":"greetings",
         "english":"Please/You're welcome",
         "urdu":"براہ کرم / خوش آمدید",
-        "romaUrdu":"barah karam / khush amadid",
-        "example": "Bitte, setz dich",
+        "romanUrdu":"barah karam / khush amadid",
+        "example": "Bitte, setz dich.",
         "exampleEnglish":"Please, have a seat"
     },
     {
@@ -80,7 +80,7 @@
         "topic":"greetings",
         "english":"Bye",
         "urdu":"الوداع",
-        "romaUrdu":"alwidaa",
+        "romanUrdu":"alwidaa",
         "example": "Tschüss, bis morgen!",
         "exampleEnglish":"Bye, see you tomorrow!"
     },
@@ -94,7 +94,7 @@
         "topic":"greetings",
         "english":"Excuse me / Sorry",
         "urdu":"معاف کیجیے / معذرت",
-        "romaUrdu":"maaf kijiye / maazrat",
+        "romanUrdu":"maaf kijiye / maazrat",
         "example": "Entschuldigung, wo ist die Toilette?",
         "exampleEnglish":"Excuse me, where is the bathroom?"
     },
@@ -108,7 +108,7 @@
         "topic":"greetings",
         "english":"Good morning",
         "urdu":"صبح بخیر",
-        "romaUrdu":"subah bakhair",
+        "romanUrdu":"subah bakhair",
         "example": "Guten Morgen, wie geht es dir?",
         "exampleEnglish":"Good morning, how are you?"
     },
@@ -122,7 +122,7 @@
         "topic":"greetings",
         "english":"Good evening",
         "urdu":"شام بخیر",
-        "romaUrdu":"shaam bakhair",
+        "romanUrdu":"shaam bakhair",
         "example": "Guten Abend, schön dich zu sehen!",
         "exampleEnglish":"Good evening, nice to see you!"
     },
@@ -136,7 +136,7 @@
         "topic":"greetings",
         "english":"Good night",
         "urdu":"شب بخیر",
-        "romaUrdu":"shab bakhair",
+        "romanUrdu":"shab bakhair",
         "example": "Gute Nacht, schlaf gut!",
         "exampleEnglish":"Good night, sleep well!"
     }
