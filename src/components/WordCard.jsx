@@ -3,7 +3,7 @@ import {usestate} from 'react'
 
 
 function WordCard({word}){
-    const [flipped,setFlipped]=usestate(false)
+    const [flipped,setFlipped]=useState(false)
     return(
         <button type="button" onClick={()=>setFlipped(!flipped)}
         className={'rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm'}>
