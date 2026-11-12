@@ -1,9 +1,9 @@
-import {usestate} from 'react'
+import {useState} from 'react'
 
 
 
 function WordCard({word}){
-    const [flipped,setFlipped]=useState(false)
+    const [flipped, setFlipped]= useState(false)
     return(
         <button type="button" onClick={()=>setFlipped(!flipped)}
         className={'rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm'}>
@@ -24,7 +24,7 @@ function WordCard({word}){
                 </div>
             ):(
                 <h2 className="text-2xl font-bold">
-                    {word.article}{word.german}
+                    {word.article} {word.german}
                 </h2>
             )}
         
