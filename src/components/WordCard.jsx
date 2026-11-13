@@ -6,14 +6,14 @@ function WordCard({word}){
     const [flipped, setFlipped]= useState(false)
     return(
         <button type="button" onClick={()=>setFlipped(!flipped)}
-        className={'rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm'}>
+        className={'rounded-2xl border border-gray-200 bg-white p-5 text-left text-gray-900 shadow-sm'}>
             <p className="text-sm text-gray-500">{word.level}</p>
 
             {flipped ?(
         
                 <div>
                     
-                    <h2 className="text-2xl font-bold">
+                    <h2 className="text-2xl text-gray-700 font-bold">
                         {word.article} {word.german}
                     </h2>
                     <p className="mt-2 text-gray-700">{word.english}</p>
