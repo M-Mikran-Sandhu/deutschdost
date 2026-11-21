@@ -5,10 +5,13 @@ import WordCard from './components/WordCard.jsx'
 function App(){
   const[search,setSearch]=useState('')
 
+  const query = search.trim().toLowerCase()
+
   const filteredWords=words.filter((word)=> 
-    word.german.toLowerCase().includes(search.toLowerCase()) ||
-    word.english.toLowerCase().includes(search.toLowerCase())||
-    word.urdu.toLowerCase().includes(Search.toLowerCase())
+    word.german.toLowerCase().includes(query) ||
+    word.english.toLowerCase().includes(query)||
+    word.urdu.includes(query)||
+    word.romanUrdu.toLowerCase().includes(query)
   )
   return(
     
@@ -22,12 +25,17 @@ function App(){
         placeholder="Search for a word....."
         className="mb-6 w-full rounded-lg border border-gray-300 p-3"
       />
-
-      <div className="grid gap-4 sm:grid-cols-2">
-        {filteredWords.map((word)=> (
-          <WordCard key={word.id} word={word}/>
+    {filteredWords.length === 0 ? (
+      <p  className="rounded-2xl border border-dashed border-gray-300 p-6 text-center text-gray-500">
+        "{search}" is not added yet. Try another word. 
+      </p>
+    ):(
+        <div className="grid gap-4 sm:grid-cols-2">
+          {filteredWords.map((word)=> (
+            <WordCard key={word.id} word={word}/>
         ))}
       </div>
+      )}
     </main>
   )
 }
